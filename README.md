@@ -8,7 +8,7 @@
 
 - 更改.env里面`DB_USERNAME`,`DB_PASSWORD`等数据库配置
 
-- 执行命令生成管理员账号密码
+- 执行命令生成管理员账号加密密码
 ```cmd
 php artisan db:seed --class=AdminuserTableSeeder
 ```
