@@ -4,7 +4,7 @@
 基于php Laravel和Bootstrap开发的资讯管理系统
 
 ### 部署方法
-- 创建数据库`stucms`.在.env文件中`DB_DATABASE`选项中可更改
+- 创建数据库`cms`.在.env文件中`DB_DATABASE`选项中可更改
 
 - 更改.env里面`DB_USERNAME`,`DB_PASSWORD`等数据库配置
 
