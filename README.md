@@ -1,7 +1,7 @@
 # NewsCms
 
 ### 项目介绍
-基于php Laravel和Bootstrap开发的资讯管理系统，兼容适配移动端
+基于php Laravel和Bootstrap开发的内容管理系统，兼容适配移动端
 
 ### 部署方法
 - 创建数据库`cms`.在.env文件中`DB_DATABASE`选项中可更改
