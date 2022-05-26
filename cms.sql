@@ -51,7 +51,7 @@ CREATE TABLE `admin_user` (
 -- ----------------------------
 -- Records of admin_user
 -- ----------------------------
-INSERT INTO `admin_user` VALUES ('1', 'admin', '0c39564048ccf20e5a86a973ed230378', 'd58c05224519411b4b791df3098f4fb7', null, null);
+INSERT INTO `admin_user` VALUES ('1', 'admin1', '0c39564048ccf20e5a86a973ed230378', 'd58c05224519411b4b791df3098f4fb7', null, null);
 
 -- ----------------------------
 -- Table structure for `adv`
