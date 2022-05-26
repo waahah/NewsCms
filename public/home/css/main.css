@@ -1,0 +1,336 @@
+/* 头部 */
+.header > header {
+    padding: 30px 0;
+}
+.header > header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.header .header-logo {
+    float: left;
+    margin-left: 12px;
+    font-size: 26px;
+}
+.header .header-logo span {
+    color: #cf4141;
+}
+.header .header-right {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header .header-right li {
+    float: left;
+    margin-left: 10px;
+}
+.header .header-right a {
+    color: #212529;
+}
+.header .header-right a:hover {
+    color: #616569;
+    text-decoration: none;
+}
+/* 主导航栏 */
+.header > .navbar {
+    background: #cf4141;
+    padding: 0;
+}
+.header > .navbar .nav-item a {
+    color: #fff;
+    padding: .5rem 1.2rem;
+}
+.header > .navbar .nav-item:hover > a {
+    background: #be3434;
+    color: #fff;
+}
+.header > .navbar .dropdown-menu {
+    background: #cf4141;
+    border-radius: 0;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+}
+.header > .navbar .dropdown-menu a {
+    background: #cf4141;
+}
+.header > .navbar .dropdown-menu a:hover {
+    background: #be3434;
+}
+/* 页脚 */
+.footer {
+    background: #262b32;
+    color: #a2a4a7;
+    text-align: center;
+    padding: 20px 0;
+}
+/* 焦点图 */
+.main-carousel .carousel-caption {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+    background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.75));
+}
+.main-carousel img {
+    height: 353px;
+    object-fit: cover;
+}
+/* 图片组 */
+.main-imgbox > div {
+    position: relative;
+    margin-bottom: 18px;
+}
+.main-imgbox a {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.main-imgbox img {
+    transition: all .35s ease;
+}
+.main-imgbox a:hover img {
+    transform: scale(1.12);
+}
+.main-imgbox dl {
+    font-size: 14px;
+    position: absolute;
+    margin-bottom: 0;
+    margin-right: 15px;
+    bottom: 0;
+}
+.main-imgbox dt {
+    background: rgba( 204,41,54,0.75 );
+    display: inline-block;
+    padding: 1px 15px 2px;
+    color: #fff;
+    font-weight: normal;
+}
+.main-imgbox dd {
+    color: #fff;
+    background: rgba(0,0,0,.6);
+    padding: 10px 15px;
+    margin-bottom: 0;
+    transition: all .5s ease;
+}
+.main-imgbox dd:hover {
+    background: rgba(0,0,0,.8);
+}
+/* 卡片 */
+.main-card .card-header {
+    background-color: #fff;
+    color: #2f363e;
+}
+.main-card .card-header h2 {
+    margin: 0;
+    display: inline-block;
+    font-size: 16px;
+}
+.main-card .card-header .float-right a {
+    font-size: 12px;
+    transition: all .35s ease;
+    color: #82868B;
+    text-decoration: none;
+}
+.main-card .card-header .float-right a:hover {
+    color: #cc2936;
+}
+.main-card-info {
+    color: #6E7378;
+    font-size: 14px;
+    margin: 16px 0 10px;
+}
+.main-card-info span {
+    padding: 5px 25px 5px 0;
+}
+.main-card-info i {
+    margin-right: 5px;
+}
+.main-card h3 {
+    font-size: 20px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 24px;
+}
+.main-card h3 a {
+    color: #2f363e;
+    text-decoration: none;
+    transition: all .35s ease;
+}
+.main-card h3 a:hover {
+    color: #cc2936;
+}
+.main-card .card-body {
+    padding: .7rem;
+}
+.main-card-desc {
+    color: #2F363E;
+    line-height: 1.8em;
+    margin: 18px 0;
+}
+.main-card-pic {
+    position: relative;
+}
+.main-card-pic span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(255,255,255,.5);
+    transition: all .35s ease;
+}
+.main-card-pic:hover span {
+    opacity: 1;
+}
+.main-card-pic:hover i {
+    top: 50%;
+}
+.main-card-pic i {
+    background: rgba(204,41,54,.75);
+    position: absolute;
+    font-size: 18px;
+    top: 60%;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+    margin: -24px 0 0 -24px;
+    padding-top: 15px;
+    line-height: 1em;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    transition: all .35s ease;
+}
+.main-card-pic i:hover {
+    background: #cc2936;
+}
+.main-card-pic img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.main-card .main-card-btn {
+    display: block;
+    padding: 12px 0;
+    border-top: 1px solid #e5e5e5;
+    color: #2f363e;
+    background: #fafafa;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    transition: all .35s ease;
+}
+
+.main-card .main-card-btn:hover {
+    background: #cc2936;
+    color: #fff;
+}
+
+/* 卡片侧边栏 */
+.main-card-sidebar h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+/* 面包屑导航 */
+
+.main-crumb {
+    font-size: 14px;
+    padding: 12px 15px;
+    background: rgba(39,48,57,.05);
+    color: #7D8389;
+    margin-bottom: 20px;
+}
+
+.main-crumb .breadcrumb {
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+.main-crumb .breadcrumb a {
+    color: #2f363e;
+}
+
+.main-crumb .breadcrumb a:hover {
+    color:  #cc2936;
+    text-decoration: none;
+    transition: all .35s ease;
+}
+
+/* 文章 */
+
+.main-article h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.main-article-content {
+    margin-top: 1.5rem;
+}
+
+.main-article-like {
+    font-size: 32px;
+    color: #4682B4;
+}
+
+.main-article-like span {
+    cursor: pointer;
+}
+
+/* 评论 */
+
+.main-comment-header {
+    font-size: 26px;
+    color: #747474;
+    margin: 30px 0;
+}
+
+.main-comment-name {
+    font-size: 20px;
+    color: #747474;
+    margin-bottom: 10px;
+}
+
+.main-comment-date {
+    color: #bbb;
+}
+
+/* 发表评论 */
+
+.main-reply {
+    margin-bottom: 20px;
+    color: #2F363E;
+}
+
+.main-reply-header {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 40px 0 20px;
+}
+
+.main-reply-title {
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+.main-reply textarea {
+    padding: 5px 10px;
+    color: #666;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main-reply input[type=submit] {
+    padding: .2em 1em;
+}
