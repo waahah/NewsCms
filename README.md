@@ -18,10 +18,10 @@ php artisan db:seed --class=AdminuserTableSeeder
 
 ### 图片演示
 
-![image](https://user-images.githubusercontent.com/90046731/170527209-eafbd3c8-63a5-4a90-8dfa-084cadaec84b.png)
+![image](https://user-images.githubusercontent.com/90046731/170527209-eafbd3c8-63a5-4a90-8dfa-084cadaec84b.png#pic_left=300x)
 
-![image](https://user-images.githubusercontent.com/90046731/170527477-cea1688d-158d-4c1c-939b-28fd97b00019.png)
+![image](https://user-images.githubusercontent.com/90046731/170527477-cea1688d-158d-4c1c-939b-28fd97b00019.png#pic_left=300x)
 
-![image](https://user-images.githubusercontent.com/90046731/170526670-73337c75-5420-4f22-983b-33cb01fd4051.png)
+![image](https://user-images.githubusercontent.com/90046731/170526670-73337c75-5420-4f22-983b-33cb01fd4051.png#pic_left=300x)
 
 NewCms based on laravel development of an information management system, suitable for beginners to practice. 
