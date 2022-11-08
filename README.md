@@ -1,7 +1,7 @@
 # NewsCms
 
 ### 项目介绍
-基于php Laravel 和 Bootstrap开发的内容管理系统，兼容适配移动端
+基于 Laravel 和 Bootstrap 开发的新闻发布系统，兼容适配移动端
 
 ### 环境
 - PHP version > 7.0
@@ -43,4 +43,4 @@
 
 <img src="https://user-images.githubusercontent.com/90046731/170526670-73337c75-5420-4f22-983b-33cb01fd4051.png" width="30%">
 
-NewCms based on laravel development of an information management system, suitable for beginners to practice. 
+NewCms is a news release system based on Laravel, which is suitable for beginners to practice.
